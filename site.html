@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivieri Store</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+/*        body {
+            font-family: 'Open Sans', sans-serif;
+            }
+
+        header {
+           background-color: #13763d;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .header-top {
+             width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo { 
+            width: 10%;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+             margin-right: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333333;
+        }
+
+        .header-right {
+             display: flex;
+        }
+
+        .search-icon, .cart-icon {
+           width: 10%;
+          margin-left: 1rem;
+        }
+
+        .header-bottom {
+            width: 100%;
+             display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+        }
+
+        .header-bottom-left {
+             width: 60%;
+        }
+
+        .header-bottom-right {
+            width: 35%;
+            text-align: center;
+        }
+
+        .cta-btn {
+            background-color: #333333;
+             color: white;
+            padding: 0.5rem 1rem;
+             text-decoration: none;
+             margin-top: 1rem;
+        }
+
+        main {
+             display: flex;
+             flex-wrap: wrap;
+             background-color: #6caf6c;
+        }
+
+        section {
+             width: 30%;
+            margin: 2rem 1%;
+        }
+
+        section h2 {
+             margin-bottom: 1rem;
+        }
+
+        .products {
+             list-style: none;
+        }
+
+        .products li {
+             margin-bottom: 1rem;
+        }       
+
+        footer {
+             background-color: #F2F2F2;
+            padding: 1rem 2rem;
+        }
+
+        .footer-top {
+             width: 100%;
+             display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-media a {
+             margin-left: 1rem;
+        }
+
+        .footer-bottom {
+             text-align: center;
+            }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }   
+*/
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="logo">
+          <img src="vans-logo.svg" alt="logo img">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#kids">Kids</a></li>
+            <li><a href="#custom">Custom</a></li>
+            <li><a href="#sale">Sale</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <div class="search-icon">
+            <img src="search-icon.svg" alt="Search icon">
+          <div class="cart-icon">
+            <img src="cart-icon.svg" alt="Cart icon">
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="header-bottom-left">
+          <img src="header-banner.jpg" alt="Header banner">
+        </div>
+        <div class="header-bottom-right">
+          <h2>New Arrivals</h2>
+          <p>Check out the latest styles</p>
+          <a href="/new-arrivals.html" class="cta-btn">Shop Now</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="men">
+        <h2>Collection 1</h2>
+        <ul class="products">
+          <li>
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Product 1 description...</p>
+            <button>Add to Cart</button>
+          </li>
+          <!-- Repeat the same structure for the remaining products -->
+        </ul>
+      </section>
+      <section id="women">
+        <h2>Collection 2</h2>
+        <ul class="products">
+          <li>
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Product 1 description...</p>
+            <button>Add to Cart</button>
+          </li>
+          <!-- Repeat the same structure for the remaining products -->
+        </ul>
+      </section>
+      <section id="kids">
+        <h2>Collection 3</h2>
+        <ul class="products">
+          <li>
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Product 1 description...</p>
+            <button>Add to Cart</button>
+          </li>
+          <!-- Repeat the same structure for the remaining products -->
+        </ul>
+      </section>
+      <section id="custom">
+        <h2>Collection 4</h2>
+        <ul class="products">
+          <li>
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Product 1 description</p>
+            <button>Customize</button>
+            </li>
+            <!-- Repeat the same structure for the remaining products -->
+          </ul>
+        </section>
+        <section id="sale">
+          <h2>Sale</h2>
+          <ul class="products">
+            <li>
+              <img src="product1.jpg" alt="Product 1">
+              <h3>Product 1</h3>
+              <p>Product 1 description...</p>
+              <button>Add to Cart</button>
+            </li>
+            <!-- Repeat the same structure for the remaining products -->
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-top">
+          <nav>
+            <ul>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/contact.html">Help</a></li>
+              <li><a href="#careers">Careers</a></li>
+              <li><a href="/products.html">Stores</a></li>
+              <li><a href="/vip.html">VIP</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100089454871125" target="_blank"><img src="/images/Facebook_icon.svg.png" alt="Facebook icon"></a>
+            <a href="#twitter" target="_blank"><img src="/images/twitter-icon.svg" alt="Twitter icon"></a>
+            <a href="#instagram" target="_blank"><img src="/images/Instagram-Logo.svg" alt="Instagram icon"></a>
+            <a href="#youtube" target="_blank"><img src="/images/youtube-iconpng.png" alt="Youtube icon"></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright ©2022 Sivieri Store</p>
+        </div>
+      </footer>
+    </body>
+  </html>
