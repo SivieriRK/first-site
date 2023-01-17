@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+header {
+   background-color: #13763d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header-top {
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo { 
+    width: 10%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+     margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header-right {
+     display: flex;
+}
+
+.search-icon, .cart-icon {
+   width: 10%;
+  margin-left: 1rem;
+}
+
+.header-bottom {
+    width: 100%;
+     display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.header-bottom-left {
+     width: 60%;
+}
+
+.header-bottom-right {
+    width: 35%;
+    text-align: center;
+}
+
+.cta-btn {
+    background-color: #333333;
+     color: white;
+    padding: 0.5rem 1rem;
+     text-decoration: none;
+     margin-top: 1rem;
+}
+
+main {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #6caf6c;
+}
+
+section {
+     width: 30%;
+    margin: 2rem 1%;
+}
+
+section h2 {
+     margin-bottom: 1rem;
+}
+
+.products {
+     list-style: none;
+}
+
+.products li {
+     margin-bottom: 1rem;
+}       
+
+footer {
+     background-color: #F2F2F2;
+    padding: 1rem 2rem;
+}
+
+.footer-top {
+     width: 100%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media a {
+     margin-left: 1rem;
+}
+
+.footer-bottom {
+     text-align: center;
+    }
+
+img {
+    width: 30px;
+    height: 30px;
+}  
